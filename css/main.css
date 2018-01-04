@@ -50,6 +50,10 @@ a {
   color: #fff;
 }
 
+.header-li:hover{
+  background-color: #cc1465;
+}
+
 .sweets-img {
   width: 100px;
 }
@@ -60,6 +64,7 @@ a {
   border width: 5px;
   border-style: solid;
   border-color: #860C21;
+  background-color: #DDAA33;
 }
 
 
@@ -81,7 +86,21 @@ img {
   border-width: 3px;
 }
 
+.btn:hover {
+  background-color: #EA0097;
+}
+
+.reviews{
+  text-align: center;
+  border-radius: 7px;
+  border width: 5px;
+  border-style: solid;
+  border-color: #860C21;
+  background-color: #989C5D;
+}
+
 .btn3 {
+  padding: .5em;
   padding-top: 1rem;
   text-align: center;
   float: left;
@@ -90,7 +109,13 @@ img {
 }
 
 .btn4 {
+  padding: .5em,
   float: right;
   width: 50%;
   min-height: 50px;
+}
+
+.btn2,
+.btn1 {
+  margin: .5em;
 }
