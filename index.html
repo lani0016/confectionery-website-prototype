@@ -5,23 +5,24 @@
   <title>confectionary website</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
 </head>
 <body>
-  <nav>
+  <nav class="nav-1">
     <header class="header-nav">
       <h1 class="header h1">Beau's Bonbons</h1>
     </header>
     <ul class="header-nav-a">
-      <li class="header-li"><a href="#">Our Locations</li>
-      <li class="header-li"><a href="#">Menu Board</li>
-      <li class="header-li"><a href="#">Contact Us</li>
+      <li class="header-li"><a href="#location">Our Locations</a></li>
+      <li class="header-li"><a href="#special">Menu Board</a></li>
+      <li class="header-li"><a href="#contact">Contact Us</a></li>
     </ul>
   </nav>
 <main>
     <img class="rectangle" src="images/placeholder-3by1.svg" alt="placeholder">
-    <h2>Local Specialties</h2>
+    <h2 id="special">Local Specialties</h2>
     <div class="sweets">
-      <section class="card">
+      <section class="sweets">
         <img class="sweets-img" src="images/placeholder-circle.svg" alt="placehold">
         <h3 class="sweets-body">Choco Buns</h3>
         <p> Our classic hawaiian sweet roll made with sustainable cocoa, and filled with a coconut mousse will have your tastebuds on Island-time</p>
@@ -47,10 +48,10 @@
     </div>
     <div class="location">
       <img src="images/placeholder-2by3.svg" alt="location picture">
-      <h3> Great Treats come with Great Views!</h3>
+      <h3 id="location"> Great Treats come with Great Views!</h3>
       <p class="location-p"> Our locations ride along the green belt. This ensures that our guests experience the freshest air and most beautiful sights as they munch on our delicious Sweets. Enhancing the overall experience and getting our valued customers to appreciate the country these confections were hand-made in!</p>
       <div>
-        <a class="btn2" href="#">Our closest Shop?</a>
+        <a class=" btn btn2" href="#">Our closest Shop?</a>
       </div>
     </div>
     <div class="reviews">
@@ -59,11 +60,15 @@
       <img src="images/person-circle.svg" alt="person-circle">
     </div>
     <div class="jobs">
-      <h3>Looking to Work for Us?</h3>
+      <h3 id="contact">Looking to Work for Us?</h3>
       <p class="jobs-p"> We have plenty of job oppertunities ranging from part-time all the way to upper management! with fair wages and staff perks, could our green apron be your next uniform?</p>
-      <div>
-        <a class="btn3" href="#"> Apply Today!</a>
-      </div>
+      <nav>
+        <p class="jobs-p">Perks of this job include wages above minimum wage starting at $15.50 an hour, flexible hours, Holidays at home and for full time staff and management; 2 weeks paid leave, maternity/paternity oppertunities, dental and health benifits! Your only requirements for this job is Highschool education or higher, can speak/understand English and at least 1 other language (it doesn't have to be french), and that you can prove yourself as a hard-working individual via a 4 week training session</p>
+        <a class=" btn btn3" href="#"> Apply Today!</a>
+        <nav>
+          <a class=" btn btn4" href="#"> I'm Sending my Resume!</a>
+        </nav>
+      </nav>
     </div>
 </main>
 <footer>
