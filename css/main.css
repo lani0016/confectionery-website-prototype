@@ -44,6 +44,9 @@ a {
   text-align: left;
 
 }
+.header-nav-a {
+  list-style-type: none;
+}
 
 .header-li {
   text-decoration: none;
@@ -167,6 +170,10 @@ q {
   min-height: 70px;
 }
 
+  footer {
+    clear: both;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -192,7 +199,7 @@ html {
   display: inline-block;
   vertical-align: top;
   width: 30%;
-  min-height: 45em;
+  min-height: 36em;
   padding: 1em;
   margin: 0;
 }
@@ -233,7 +240,7 @@ html {
   }
 
   .rectangle {
-    width: 900px;
+    width: 90%;
   }
 
   .nav-1 {
@@ -260,16 +267,31 @@ html {
   }
 
   .hours {
+    margin-top: 0;
     margin-left: 1em;
+  }
 
+  .hour-p {
+    margin-left: 4rem;
+    padding: 1em;
+    padding-bottom: 1em;
+  }
 
+  .hour-img {
+    padding: 1rem;
+    width: 300px;
   }
 
   .location {
+    float: left;
     width: 50%;
     margin: 0;
-    width: 20em;
-    margin-right: 3em;
+    margin-top: 1em;
+    margin-right: 1em;
+  }
+
+  .reviews {
+    clear: both;
   }
 
 }
@@ -282,5 +304,57 @@ html {
   line-height: 1.5;
 }
 
+.rectangle {
+  width: 90%;
+}
+
+.nav-1 {
+  width: 25em;
+  text-align: center;
+  left: 32%;
+  top: 3.5%;
+}
+
+  .sweets {
+    min-height: 21em;
+  }
+
+  .hours{
+    margin-top: 18px;
+    margin: 0;
+    width: 40%;
+  }
+  .hours-text{
+    margin: 0;
+    display: inline-block;
+    width: 55%;
+    margin-top: 1em;
+  }
+  .hour-img{
+    margin-top: 9em;
+    padding: 0;
+    display: inline-block;
+    width: 45%;
+  }
+
+  .btn1 {
+    margin-top: 4em;
+  }
+
+  .location {
+    margin: 0;
+  }
+  .location-text {
+    display: inline-block;
+    width: 50%;
+  }
+  .location-img {
+    display: inline-block;
+    width: 30%;
+  }
+
+  .btn4 {
+    min-height: 73px;
+  }
 
 }
