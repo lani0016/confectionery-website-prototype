@@ -49,15 +49,20 @@ a {
   text-align: left;
 
 }
-.header-nav-a {
+.header nav a {
 
   list-style-type: none;
 }
 
-.header-li {
-
+.header li {
+list-style-type: none;
+text-align: center;
   text-decoration: none;
   color: #fff;
+}
+
+.nav-1 ul {
+  padding: 0;
 }
 
 .header-li:hover{
@@ -74,7 +79,7 @@ a {
 
   text-align: center;
   border-radius: 7px;
-  border width: 5px;
+  border-width: 5px;
   border-style: solid;
   border-color: #860C21;
   background-color: #DDAA33;
@@ -110,7 +115,7 @@ img {
 
   text-align: center;
   border-radius: 7px;
-  border width: 5px;
+  border-width: 5px;
   border-style: solid;
   border-color: #860C21;
   background-color: #989C5D;
@@ -128,7 +133,7 @@ img {
 
 .btn4 {
 
-  padding: .5em,
+  padding: .5em;
   float: right;
   width: 50%;
   min-height: 50px;
@@ -410,7 +415,7 @@ html {
   }
 
   .btn4 {
-    
+
     min-height: 73px;
   }
 
