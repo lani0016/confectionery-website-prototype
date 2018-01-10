@@ -10,14 +10,15 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: "Sigmar+One",sans-serif;
-  background-color:#cc1465;
+  font-family: "Sigmar+One", sans-serif;
+  background-color: #cc1465;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
 
   margin: 0;
@@ -29,7 +30,7 @@ h1 {
   font-size: 1.75rem;
 }
 
-.rectangle{
+.rectangle {
 
   width: 300px;
 }
@@ -40,7 +41,7 @@ a {
   color: #fff;
 }
 
-.nav-1{
+.nav-1 {
 
   text-decoration: none;
   background-color: #660024;
@@ -49,14 +50,15 @@ a {
   text-align: left;
 
 }
+
 .header nav a {
 
   list-style-type: none;
 }
 
 .header li {
-list-style-type: none;
-text-align: center;
+  list-style-type: none;
+  text-align: center;
   text-decoration: none;
   color: #fff;
 }
@@ -65,7 +67,7 @@ text-align: center;
   padding: 0;
 }
 
-.header-li:hover{
+.header-li:hover {
 
   background-color: #cc1465;
 }
@@ -81,10 +83,9 @@ text-align: center;
   border-radius: 7px;
   border-width: 5px;
   border-style: solid;
-  border-color: #860C21;
-  background-color: #DDAA33;
+  border-color: #860c21;
+  background-color: #da3;
 }
-
 
 img {
 
@@ -108,17 +109,17 @@ img {
 
 .btn:hover {
 
-  background-color: #EA0097;
+  background-color: #ea0097;
 }
 
-.reviews{
+.reviews {
 
   text-align: center;
   border-radius: 7px;
   border-width: 5px;
   border-style: solid;
-  border-color: #860C21;
-  background-color: #989C5D;
+  border-color: #860c21;
+  background-color: #989c5d;
 }
 
 .btn3 {
@@ -151,55 +152,54 @@ img {
 
     position: absolute;
     font-size: 100%;
-    line-height: 1.3
+    line-height: 1.3;
   }
 
-.rectangle{
+  .rectangle {
 
-  width: 380px
-}
+    width: 380px;
+  }
 
-.sweets-img {
+  .sweets-img {
 
-  float: left;
-}
+    float: left;
+  }
 
-p {
+  p {
 
-  text-align: left;
-  position: relative;
-}
+    text-align: left;
+    position: relative;
+  }
 
+  .hour-img {
 
-.hour-img {
+    float: left;
+  }
 
-  float: left;
-}
+  .hours {
 
-.hours {
+    margin: 1em;
+  }
 
-  margin: 1em;
-}
+  .location {
 
-.location {
+    margin: 5em;
+  }
 
-  margin: 5em;
-}
+  q {
 
-q {
+    display: block;
+  }
 
-  display: block;
-}
+  .btn4 {
 
-.btn4 {
-
-  padding: .45em;
-  padding-top: .65rem;
-  text-align: center;
-  float: left;
-  width: 50%;
-  min-height: 70px;
-}
+    padding: .45em;
+    padding-top: .65rem;
+    text-align: center;
+    float: left;
+    width: 50%;
+    min-height: 70px;
+  }
 
   footer {
 
@@ -210,63 +210,60 @@ q {
 
 @media only screen and (min-width: 38em) {
 
-html {
+  html {
 
-  position: absolute;
-  font-size: 110%;
-  line-height: 1.4;
-}
+    position: absolute;
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
-.rectangle {
-  width: 600px;
-}
-.nav-1 {
+  .rectangle {
+    width: 600px;
+  }
 
-  position: absolute;
-  left: 50%;
-  width: 15em;
-  padding: 0;
-}
+  .nav-1 {
 
+    position: absolute;
+    left: 50%;
+    width: 15em;
+    padding: 0;
+  }
 
-.sweets {
+  .sweets {
 
-  display: inline-block;
-  vertical-align: top;
-  width: 30%;
-  min-height: 36em;
-  padding: 1em;
-  margin: 0;
-}
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    min-height: 36em;
+    padding: 1em;
+    margin: 0;
+  }
 
+  .sweets-img {
 
-.sweets-img {
+    margin: 1rem;
+    right: 30%;
+  }
 
-  margin: 1rem;
-  right: 30%;
-}
+  .hours {
 
-.hours {
+    float: left;
+    margin: 5rem;
+    margin-left: 12rem;
+    text-align: center;
+  }
 
-  float: left;
-  margin: 5rem;
-  margin-left: 12rem;
-  text-align: center;
-}
+  .hour-p {
 
+    width: 10rem;
+    margin-left: 2em;
+  }
 
-.hour-p {
+  .btn1 {
 
- width: 10rem;
- margin-left: 2em;
-}
-
-
-.btn1 {
-
-  float: right;
-  vertical-align: middle;
-}
+    float: right;
+    vertical-align: middle;
+  }
 
 }
 
@@ -348,45 +345,46 @@ html {
 
 @media only screen and (min-width: 90em) {
 
-html {
+  html {
 
-  position: absolute;
-  font-size: 130%;
-  line-height: 1.5;
-}
+    position: absolute;
+    font-size: 130%;
+    line-height: 1.5;
+  }
 
-.rectangle {
+  .rectangle {
 
-  width: 90%;
-}
+    width: 90%;
+  }
 
-.nav-1 {
+  .nav-1 {
 
-  width: 25em;
-  text-align: center;
-  left: 32%;
-  top: 3.5%;
-}
+    width: 25em;
+    text-align: center;
+    left: 32%;
+    top: 3.5%;
+  }
 
   .sweets {
 
     min-height: 21em;
   }
 
-  .hours{
+  .hours {
 
     margin-top: 18px;
-    margin: 0;
     width: 40%;
   }
-  .hours-text{
+
+  .hours-text {
 
     margin: 0;
     display: inline-block;
     width: 55%;
     margin-top: 1em;
   }
-  .hour-img{
+
+  .hour-img {
 
     margin-top: 9em;
     padding: 0;
@@ -403,11 +401,13 @@ html {
 
     margin: 0;
   }
+
   .location-text {
 
     display: inline-block;
     width: 50%;
   }
+
   .location-img {
 
     display: inline-block;
