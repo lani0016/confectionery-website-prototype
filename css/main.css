@@ -67,7 +67,7 @@ a {
   padding: 0;
 }
 
-.header-li:hover {
+.header li:hover {
 
   background-color: #cc1465;
 }
